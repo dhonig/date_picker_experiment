@@ -5,3 +5,11 @@ node_modules/
 platforms/
 plugins/
 .idea/
+
+gradlew
+gradlew.bat
+
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+.gradle
