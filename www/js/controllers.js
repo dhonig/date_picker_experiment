@@ -2,6 +2,10 @@ angular.module('starter.controllers', [])
 
 .controller('DashCtrl', function($scope, $cordovaDatePicker, $ionicPlatform) {
 
+  console.log($scope);
+  console.log($cordovaDatePicker);
+  console.log($ionicPlatform);
+  $ionicPlatform.ready(function(){
   $scope.showDatePicker = function () {
     var options = {
       date: new Date(),
@@ -16,10 +20,11 @@ angular.module('starter.controllers', [])
     };
 
     $cordovaDatePicker.show(options).then(function (date) {
+
       alert(date);
     });
   };
-
+  });
 })
 
 .controller('ChatsCtrl', function($scope, Chats) {
