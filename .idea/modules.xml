@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/date_pickers.iml" filepath="$PROJECT_DIR$/.idea/modules/date_pickers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/date_picker_experiment.iml" filepath="$PROJECT_DIR$/.idea/modules/date_picker_experiment.iml" />
     </modules>
   </component>
 </project>
