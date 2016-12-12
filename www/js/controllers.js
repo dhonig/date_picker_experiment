@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope, $cordovaDatePicker, $ionicPlatform) {
+.controller('DashCtrl', function($scope, $window, $ionicPlatform, $cordovaDatePicker) {
 
   $ionicPlatform.ready(function(){
    $scope.showDatePicker = function () {
